@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.COVrGdev.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"read/Index.md","filePath":"read/Index.md","lastUpdated":1732545902000}'),r={name:"read/Index.md"};function d(n,o,s,c,p,_){return a(),t("div")}const f=e(r,[["render",d]]);export{m as __pageData,f as default};

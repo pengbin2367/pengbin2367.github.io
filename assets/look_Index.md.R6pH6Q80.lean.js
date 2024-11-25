@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.COVrGdev.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"look/Index.md","filePath":"look/Index.md","lastUpdated":1732545902000}'),a={name:"look/Index.md"};function n(r,s,d,c,p,l){return o(),t("div")}const m=e(a,[["render",n]]);export{i as __pageData,m as default};
