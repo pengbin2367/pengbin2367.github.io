@@ -10,21 +10,30 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "不知道", link: "/read/Index" },
+      { text: "不清楚", link: "/look/Index" },
     ],
 
-    sidebar: [
-      {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-    ],
+    sidebar: {
+      "/read/": [
+        {
+          text: "阅读",
+          items: [{ text: "Index", link: "/read/Index" }],
+        },
+      ],
+      "/look/": [
+        {
+          text: "观影",
+          items: [
+            {
+              text: "Index",
+              link: "/look/Index",
+            },
+          ],
+        },
+      ],
+    },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/pengbin2367" }],
   },
 });
