@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "靡不有初，鲜克有终"
-  text: "A VitePress Site"
+  text: "fuck you, fuck you, and specily fuck you"
   tagline: My great project tagline
 
 features:
